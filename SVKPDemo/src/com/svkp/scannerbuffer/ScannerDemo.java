@@ -7,12 +7,25 @@ public class ScannerDemo {
 	public static void main(String[] args) {
 		
 		System.out.println("Enter a number : ");
-		try (Scanner obj = new Scanner(System.in)) {
-			int x;
-			x = obj .nextInt();
-			System.out.println("The entered number is : " + x);
+		try (Scanner in = new Scanner(System.in)) {
+			
+			int input = in.nextInt();
+		
+		if (input > 0)
+		{
+			System.out.println("Number is positive");
+		}
+		else if (input < 0)
+		{
+			System.out.println("Number is negative");
+		}
+		else
+		{
+			System.out.println("number is Zero");
 		}
 
 	}
+
+  }
 
 }
