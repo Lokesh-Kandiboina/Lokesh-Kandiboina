@@ -7,8 +7,8 @@ public class ScannerDemo {
 	public static void main(String[] args) {
 		
 		System.out.println("Enter a number : ");
-		try (Scanner in = new Scanner(System.in)) {
-			
+		try (Scanner in = new Scanner(System.in)) 
+		{
 			int input = in.nextInt();
 		
 		if (input > 0)
