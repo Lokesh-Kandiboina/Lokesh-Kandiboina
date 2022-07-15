@@ -13,8 +13,10 @@ public class BufferReader {
 		i = Double.parseDouble(in.readLine());
 		if(i<0)
 			System.out.println("Negative");
-		else
+		else if (i>0)
 			System.out.println("Positive");
+		else
+			System.out.println("number is Zero");
 	}
 
 }
