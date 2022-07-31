@@ -42,7 +42,7 @@ public class dequeue {
      System.out.println(
          "Elements of deque using Iterator :");
 
-     for (Iterator itr = de_que.iterator();
+     for (Iterator<Integer> itr = de_que.iterator();
           itr.hasNext();) {
          System.out.println(itr.next());
      }
@@ -51,7 +51,7 @@ public class dequeue {
      System.out.println(
          "Elements of deque in reverse order :");
 
-     for (Iterator dItr = de_que.descendingIterator();
+     for (Iterator<Integer> dItr = de_que.descendingIterator();
           dItr.hasNext();) {
          System.out.println(dItr.next());
      }
